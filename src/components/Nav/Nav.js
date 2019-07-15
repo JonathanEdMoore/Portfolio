@@ -16,7 +16,6 @@ export default class Nav extends React.Component{
         <li><Link to='/projects' className="projects-link">Projects</Link></li>
         <li><a href="https://github.com/JonathanEdMoore" target="blank" className='github-link'>Github</a></li>
         <li><a href="https://www.linkedin.com/in/jonathan-moore-73b24721/" target="blank" className="linkedin-link">Linkedin</a></li>
-        <li><a href="https://twitter.com/JonathanEMoore" target="blank" className='twitter-link'>Twitter</a></li>
       </ul>
   </nav>
       </div>

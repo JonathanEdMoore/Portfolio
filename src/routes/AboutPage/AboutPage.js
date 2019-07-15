@@ -10,7 +10,7 @@ export default class AboutPage extends React.Component{
         <div></div>
         <img className="profile-photo" src={require("../../Images/Profile pic.jpg")} />
         <p>I am a web developer and current student of the Engineering Immersion bootcamp at Thinkful. My initial career
-          ambition was to purue a career as an academic philosopher. I attended Tufts University and studied with some
+          ambition was to pursue a career as an academic philosopher. I attended Tufts University and studied with some
           of the most well-respected philosophers in the world. I've always enjoyed analytical reasoning and
           argumentation, but I became disillusioned with philosophy's disinterest in concrete practical problems. I've
           found that coding has given me the best of both worlds. I'm able to work out my problem-solving skills and
