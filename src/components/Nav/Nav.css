@@ -1,0 +1,52 @@
+nav {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  display: flex;
+  background-color: black;
+  color: white;
+}
+
+.about-link {
+  color: plum;
+}
+
+.projects-link {
+  color: lightgreen;
+}
+
+.github-link {
+  color: orange;
+}
+
+.linkedin-link {
+  color: royalblue;
+}
+
+.twitter-link{
+  color: lightblue;
+}
+
+/* Non-mobile, grid */
+@media only screen and (min-width: 850px){
+  nav{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    display: flex;
+    background-color: black;
+    color: white;
+  }
+
+  nav div ul:hover{
+    cursor: pointer;
+  }
+
+  nav ul li{
+    text-align: right;
+    width: 20%;
+    padding: 0% 5%;
+  }
+}
