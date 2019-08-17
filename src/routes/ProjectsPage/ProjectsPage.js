@@ -52,7 +52,7 @@ export default class ProjectsPage extends React.Component{
         </li>
       </ul>
         <img className="image" src={require("../../Images/spaced-rep.png")} alt="spaced-repetition" />
-        <p>This is a training project that I built with a partner while studying at thinkful. The app primarily uses a linked list data structure and simple spaced-repetition learning algoithm to train the user to learn words of a foreign language. I primarily worked on building the backend of the app(server, postgres, etc.), but I also assisted on the frontend.</p>
+        <p>This is a training project that I built with a partner while studying at thinkful. The app primarily uses a linked list data structure and simple spaced-repetition learning algoithm to train the user to learn words of a foreign language. I primarily worked on building the backend of the app(node.js, postgres, etc.), but I also assisted on the frontend.</p>
         <a href="https://github.com/thinkful-ei-dragonfly/spaced-repetition-aldiyar-jonathan"
           target="blank">
           <button className="github-button">Github Frontend</button>
