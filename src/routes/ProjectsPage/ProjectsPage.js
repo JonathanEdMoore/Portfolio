@@ -86,6 +86,28 @@ export default class ProjectsPage extends React.Component{
         <a href="https://jobreel.now.sh/" target="blank">
           <button className="live-link"> Live Demo</button>
         </a>
+        <ul className="project-details">
+        <li>
+          <p>PROJECT TITLE: BudgetBuddy
+          </p>
+        </li>
+        <li>
+          <p>USES: HTML5, CSS3, ReactJS, NodeJS, Express, Enzyme, Mocha, Chai, PostgreSQL</p>
+        </li>
+      </ul>
+        <img className="image" src={require("../../Images/BudgetBuddy.png")} alt="spaced-repetition" />
+        <p>BudgetBuddy is a virtual check registry application. The purpose of the application is to be an easy to use app that will allow the user to keep track of their daily transactions. </p>
+        <a href="https://github.com/JonathanEdMoore/BudgetBuddy_client"
+          target="blank">
+          <button className="github-button">Github Frontend</button>
+        </a>
+        <a href="https://github.com/JonathanEdMoore/BudgetBuddy_server"
+        target="blank">
+          <button className="github-button"> Github Backend</button>
+        </a>
+        <a href="https://capstone1budgetbuddyclient.jmjonemoore.now.sh/" target="blank">
+          <button className="live-link"> Live Demo</button>
+        </a>
       </section>
       </div>
     )
