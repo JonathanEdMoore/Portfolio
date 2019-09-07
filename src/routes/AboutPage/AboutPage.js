@@ -8,7 +8,7 @@ export default class AboutPage extends React.Component {
         <section className="bio">
           <h2 className="about-header">About me</h2>
           <div></div>
-          <img className="profile-photo" src={require("../../Images/Profile pic.jpg")} />
+          <img className="profile-photo" alt="" src={require("../../Images/Profile pic.jpg")} />
           <p>I am a web developer and current student of the Engineering Immersion bootcamp at Thinkful. My initial career
             ambition was to pursue a career as an academic philosopher. I attended Tufts University and studied with some
             of the most well-respected philosophers in the world. I've always enjoyed analytical reasoning and

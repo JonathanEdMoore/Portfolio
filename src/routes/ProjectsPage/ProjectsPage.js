@@ -105,7 +105,7 @@ export default class ProjectsPage extends React.Component{
         target="blank">
           <button className="github-button"> Github Backend</button>
         </a>
-        <a href="https://capstone1budgetbuddyclient.jmjonemoore.now.sh/" target="blank">
+        <a href="https://budgetbuddy-app.now.sh" target="blank">
           <button className="live-link"> Live Demo</button>
         </a>
       </section>
