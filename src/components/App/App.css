@@ -4,6 +4,8 @@
 
 body {
   font-family: 'Oswald', sans-serif;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .content {
@@ -20,6 +22,7 @@ body {
 }
 
 .header-image{
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 25%

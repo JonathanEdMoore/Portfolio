@@ -9,7 +9,7 @@ export default class HomePage extends React.Component{
       Hi, my name is Jonathan. I'm a fullstack developer!
     </h1>
     <Link to='/' name="bio"></Link>
-    <img className="header-image" src={require("../../Images/Black king.png")} />
+    <img className="header-image" alt="" src={require("../../Images/Black king.png")} />
     </div>
     )
   }
