@@ -9,50 +9,50 @@ import Footer from '../Footer/Footer'
 import './App.css'
 
 export default class App extends React.Component {
-  renderMainRoutes(){
+  renderMainRoutes() {
     return (
       <>
-      <Switch>
-      <Route
-      exact
-      key='/'
-      path='/'
-      component={HomePage}
-      />
+        <Switch>
+          <Route
+            exact
+            key='/'
+            path='/'
+            component={HomePage}
+          />
 
-      <Route 
-      exact
-      key= '/about'
-      path='/about'
-      component={AboutPage}
-      />
+          <Route
+            exact
+            key='/about'
+            path='/about'
+            component={AboutPage}
+          />
 
-      <Route
-      exact
-      key='/projects'
-      path='/projects'
-      component={ProjectsPage}
-      />
+          <Route
+            exact
+            key='/projects'
+            path='/projects'
+            component={ProjectsPage}
+          />
 
-      <Route
-      component={NotFoundPage}
-      />
-      </Switch>
+          <Route
+            component={NotFoundPage}
+          />
+        </Switch>
       </>
     )
   }
 
-  render(){
-  return (
-    <div>
-      <div className="content">
-    <Nav />
-    <main className='App'>
-    {this.renderMainRoutes()}
-    </main>
-    </div>
-    <Footer />
-    </div>
-  );
-}
+  render() {
+    return (
+      <div>
+        <div className="content">
+          <Nav />
+          <main className='App'>
+            {this.renderMainRoutes()}
+          </main>
+        </div>
+        <Footer />
+      </div>
+    );
+  }
 }

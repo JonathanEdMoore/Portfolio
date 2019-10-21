@@ -17,7 +17,7 @@ export default class ProjectsPage extends React.Component{
               </p>
             </li>
           </ul>
-        <img className="image" src={require("../../Images/Bookmark-photo")} alt='bookmark' />
+        <img className="image" src={require("../../Images/Bookmark-photo.png")} alt='bookmark' />
         <p>This is an app that allows the user to submit a website url and description to be saved in a bookmarks page.
           The app allows them to delete bookmarks as well as filter according to rating.</p>
         <a href="https://github.com/thinkful-ei-dragonfly/Jonathan-Bookmarks-app" target="blank">
