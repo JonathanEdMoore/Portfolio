@@ -9,6 +9,21 @@ export default class ProjectsPage extends React.Component{
         <h2 className="project-header">Projects</h2>
         <ul className="project-details">
             <li>
+              <p>PROJECT TITLE: Cardano Triplets: Project Euler #251
+              </p>
+            </li>
+            <li>
+              <p>USES: Javascript
+              </p>
+            </li>
+          </ul>
+        <img className="image" src={require("../../Images/Cardano.png")} alt='bookmark' />
+        <p>This is code working towards an algorithm to solve Project Euler's problem #251: Cardano Triplets. This is a work in progress as I'm trying to decrease the runtime complexity of the algorithm.</p>
+        <a href="https://github.com/JonathanEdMoore/Cardano_Triplets" target="blank">
+          <button className="github-button">Github</button>
+        </a>
+        <ul className="project-details">
+            <li>
               <p>PROJECT TITLE: Bookmarks app
               </p>
             </li>
